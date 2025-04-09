@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build -- --configuration production",
+  "outputDirectory": "dist/annotation",
+  "framework": "angular",
+  "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
